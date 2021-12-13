@@ -10,32 +10,18 @@
     <title>Weather App</title>
 </head>
 <body>
+    <div class="location-search">
+        <label for="search">Search</label>
+        <input type="text" name="search" id="search">
+    </div>
     <div class="main-container">
         <h3 class="today-date">Today, 15 Dec</h3>
-        <h3 class="location">London</h3>
+        <h3 class="location" id="location"></h3>
         <div class="weather">
-            <div class="weather-img"></div>
-            <h3 class="weather-term">Cloudy</h3>
+            <img id="icon">
+            <h3 class="weather-term" id="weatherTerm">Cloudy</h3>
         </div>
-        <div class="weather-elements">
-            <div class="wind">
-                <div class="name"></div>
-                <div class="value"></div>
-            </div>
-            <div class="temperature">
-                <div class="name"></div>
-                <div class="value"></div>
-            </div>
-            <div class="humidity">
-                <div class="name"></div>
-                <div class="value"></div>
-            </div>
-        </div>
-        <div class="location-search">
-            <label for="search"></label>
-            <input type="text" name="search" id="search">
-        </div>
-
+        <h3 class="temperature" id="temperature"></h3>
     </div>
     
    <script src="app.js"></script> 
