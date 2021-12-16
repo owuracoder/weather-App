@@ -78,7 +78,7 @@ async function getCurrentWeather(searchLocation){
         searchLocation = 'London'
     }
 
-    const response = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${searchLocation}&units=metric&appid=10db400606fb6ced08dc3d4a1196becf`,{mode:'cors'})
+    const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${searchLocation}&units=metric&appid=10db400606fb6ced08dc3d4a1196becf`,{mode:'cors'})
 
     const weatherData = await response.json()
 
