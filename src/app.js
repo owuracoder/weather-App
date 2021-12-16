@@ -31,7 +31,7 @@ class Weather{
 
     setIconImage(weatherData){
         const iconId = weatherData.weather[0].icon
-        let imgURL = `http://openweathermap.org/img/wn/${iconId}@4x.png`
+        let imgURL = `https://openweathermap.org/img/wn/${iconId}@4x.png`
 
         this.iconElement.src = imgURL
     }
