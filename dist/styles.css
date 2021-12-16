@@ -12,7 +12,7 @@ body {
   justify-content: center;
   height: 100vh;
   font-family: 'Roboto', sans-serif;
-  background-image: url('../img/cloud.jpeg');
+  background-image: url('./img/cloud.jpeg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,7 +21,7 @@ body {
 
 body.active {
   background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
-    url('../img/cloud.jpeg');
+    url('./img/cloud.jpeg');
 }
 
 .location-search {
